@@ -7,7 +7,7 @@ const client = new Discord.Client({
 });
 const fs = require('fs');
 const fsp = require('fs').promises;
-const token = "MzYzNjI1OTUzNzgxNjEyNTQ1.GWjhBJ.mS-srnIC9W0RwCmi5Km0VwRgcURyETF5qxC8RI"
+const token = "YOUR_TOKEN"
 var d = new Date();
 var ora = d.getHours() + 3;
 var minut = d.getMinutes();
